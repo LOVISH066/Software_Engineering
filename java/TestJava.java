@@ -1,15 +1,21 @@
 
-package java;
 
 public class TestJava{
     public static void main(String[] args) {
 
-        System.out.println("Hello, Java!");
-        
-        int a = 10;
-        int b = 20;
-        int sum = a + b;
-        
-        System.out.println("Sum of " + a + " and " + b + " is: " + sum);
+        for(int i = 0; i < 4; i++)
+        {
+            for(int j = 1; j =< i + 1; j++)
+            {
+                System.out.print("");   
+                if( j ==     )
+                for(int k = 1; k < j + 1; k++) 
+                {
+                    System.out.print("*");
+                }                
+            }
+            System.out.println();
+        }
     }
 }
+
