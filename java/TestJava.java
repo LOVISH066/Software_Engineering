@@ -3,12 +3,16 @@ import java.util.*;
 public class TestJava{
     public static void main(String[] args) {
 
-        List<Object> arr = new ArrayList<>();
+        List<Object> arr = new ArrayList<>(); // Arraylist
 
-        int[] arr1 = {1, 2, 5, 5};
+        Map<String, Integer> marks = new HashMap<>(); // Hashmap - key value pair
 
-        for(int i = 0; i<arr1.length; i++){
-            System.out.println(arr1[i]);
+        marks.put("ram", 100);
+        marks.put("sham", 200);
+
+
+        for(int i = 0; i<arr.size(); i++){
+            System.out.println(arr.get(i));
         }
 
 
